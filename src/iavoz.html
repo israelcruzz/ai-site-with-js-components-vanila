@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/src/styles/output.css" />
+
+    <link rel="stylesheet" href="/src/styles/utils.css" />
+
+    <title>Home</title>
+  </head>
+  <body class="bg-[#151515] relative">
+    <nav
+      class="fixed hidden top-0 flex flex-col justify-start p-6 bg-black w-1/2 h-[100vh] rounded-r-lg rounded-b-lg xl:hidden menu z-50"
+    >
+      <div class="w-full flex justify-between">
+        <a
+          href="/src/index.html"
+          class="text-[#A1A1A1] font-medium p-2 hover:bg-slate-900 rounded-lg flex-1"
+          >Home</a
+        >
+        <button class="text-red-800 p-2 exit-event">
+          <img src="../assets/image/cancel.svg" width="24" height="24" alt="" />
+        </button>
+      </div>
+
+      <a
+        href="/src/chatgpt.html"
+        class="text-[#A1A1A1] font-medium hover:bg-slate-900 p-2 rounded-lg"
+        >Chatgpt</a
+      >
+      <a
+        href="/src/blackbox.html"
+        class="text-[#A1A1A1] font-medium hover:bg-slate-900 p-2 rounded-lg"
+        >BlackBox</a
+      >
+      <a
+        href="/src/leonardo-ai.html"
+        class="text-[#A1A1A1] font-medium hover:bg-slate-900 p-2 rounded-lg"
+        >LeonardoAi</a
+      >
+      <a
+        href="/src/iavoz.html"
+        class="text-[#06B67A] font-medium hover:bg-slate-900 p-2 rounded-lg"
+        >VidnozAI</a
+      >
+    </nav>
+
+    <main class="h-full w-full flex flex-col" id="top-page">
+      <div class="w-full h-full p-6 xl:p-0 flex flex-col align-center justify-center">
+        <header
+          class="relative h-full w-full xl:flex xl:items-center xl:justify-center xl:p-6"
+        >
+          <nav class="w-full hidden xl:flex items-center justify-center nav">
+            <a
+              href="/src/index.html"
+              class="text-[#A1A1A1] font-medium hover:bg-emerald-500 p-2 rounded-lg hover:text-white"
+              >Home</a
+            >
+            <a
+              href="/src/chatgpt.html"
+              class="text-[#A1A1A1] font-medium hover:bg-emerald-500 p-2 rounded-lg hover:text-white"
+              >Chatgpt</a
+            >
+            <a
+              href="/src/blackbox.html"
+              class="text-[#A1A1A1] font-medium hover:bg-emerald-500 p-2 rounded-lg hover:text-white"
+              >BlackBox</a
+            >
+            <a
+              href="/src/leonardo-ai.html"
+              class="text-[#A1A1A1] font-medium hover:bg-emerald-500 p-2 rounded-lg hover:text-white"
+              >LeonardoAi</a
+            >
+            <a
+            href="/src/iavoz.html"
+              class="text-[#06B67A] font-medium hover:bg-emerald-500 p-2 rounded-lg hover:text-white"
+              >VidnozAI</a
+            >
+          </nav>
+          <button
+            class="p-2 rounded-lg xl:hidden open-menu bg-black hover:bg-slate-900 z-10 mb-6"
+          >
+            <img
+              src="../assets/image/menu-icon.svg"
+              class="text-white"
+              width="18"
+              height="18"
+              alt=""
+            />
+          </button>
+        </header>
+        <hero-sls
+          heading="Conheça Mais Sobre o"
+          special="VidnozAI"
+          description="O VidnozAI é uma ferramenta onde com inteligência artificial você pode criar diversos conteudos desde vídeos ou audios através de textos para os mais diferentes propósitos!"
+          image="/assets/image/RobotIdol.png"
+        >
+        </hero-sls>
+
+    
+
+        <card-direction
+        image="/assets/image/vidnozlg.png"
+        heading="O que é"
+        hightlight="Sobre"
+        description="Trata-se de uma ferramenta que usa IA para criar peças de forma automatizada. Com ela, é possível escolher uma imagem humana digital, bem como seu idioma, sua voz e qual texto ela falará. Essa tecnologia pode ser usada para uma variedade de fins, como produção de vídeos de marketing, criação de conteúdo para redes sociais, entre outros."
+      >
+      </card-direction>
+
+
+      <card-direction
+      direction="right"
+        image="/assets/image/Vidnoz-AI.png"
+        heading="Como funciona"
+        hightlight="Sobre"
+        description="Para começar a usar o Vidnoz AI, basta criar uma conta no serviço. É possível se cadastrar com um e-mail ou via perfil do Facebook ou do LinkedIn. Em seguida, o usuário já está apto para desenvolver os vídeos.
+        Por meio de uma interface amigável, até mesmo para pessoas com menos habilidades técnicas, a criação do vídeo se dá em três etapas.
+        São elas: escolha do avatar, seleção da voz e digitação do conteúdo que será falado, e personalização (adição de música, efeitos, transições). Uma vez que o vídeo estiver de seu agrado, basta gerá-lo e compartilhá-lo no lugar que desejar."
+      >
+      </card-direction>
+    
+
+      <test-hero
+        headingtext="Faça o seu próprio teste agora!"
+        image="/assets/image/vidnoz-removebg-preview.png"
+        funcallback="https://pt.vidnoz.com/"
+      >
+      </test-hero>
+
+      <footer-mod></footer-mod>
+    </main>
+
+    <script src="./scripts/components/components.js" defer></script>
+    <script src="./scripts/menu/toggle-menu.js" defer></script>
+  </body>
+</html>

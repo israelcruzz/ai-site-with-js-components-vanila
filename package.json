@@ -1,0 +1,16 @@
+{
+  "name": "ia_activy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/styles/global.css -o ./src/styles/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}

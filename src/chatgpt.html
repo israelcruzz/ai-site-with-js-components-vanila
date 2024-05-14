@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/src/styles/output.css" />
+
+    <link rel="stylesheet" href="/src/styles/utils.css" />
+
+    <title>Home</title>
+  </head>
+  <body class="bg-[#151515] relative">
+    <nav
+      class="fixed hidden top-0 flex flex-col justify-start p-6 bg-black w-1/2 h-[100vh] rounded-r-lg rounded-b-lg xl:hidden menu z-50"
+    >
+      <div class="w-full flex justify-between">
+        <a
+          href="/src/index.html"
+          class="text-[#A1A1A1] font-medium p-2 hover:bg-slate-900 rounded-lg flex-1"
+          >Home</a
+        >
+        <button class="text-red-800 p-2 exit-event">
+          <img src="../assets/image/cancel.svg" width="24" height="24" alt="" />
+        </button>
+      </div>
+
+      <a
+        href="/src/chatgpt.html"
+        class="text-[#06B67A] font-medium hover:bg-slate-900 p-2 rounded-lg"
+        >Chatgpt</a
+      >
+      <a
+        href="/src/blackbox.html"
+        class="text-[#A1A1A1] font-medium hover:bg-slate-900 p-2 rounded-lg"
+        >BlackBox</a
+      >
+      <a
+        href="/src/leonardo-ai.html"
+        class="text-[#A1A1A1] font-medium hover:bg-slate-900 p-2 rounded-lg"
+        >LeonardoAi</a
+      >
+      <a
+        href="/src/iavoz.html"
+        class="text-[#A1A1A1] font-medium hover:bg-slate-900 p-2 rounded-lg"
+        >VidnozAI</a
+      >
+    </nav>
+
+    <main class="h-full w-full flex flex-col" id="top-page">
+      <div class="w-full h-full p-6 xl:p-0 flex flex-col align-center justify-center">
+        <header
+          class="relative h-full w-full xl:flex xl:items-center xl:justify-center xl:p-6"
+        >
+          <nav class="w-full hidden xl:flex items-center justify-center nav">
+            <a
+              href="/src/index.html"
+              class="text-[#A1A1A1] font-medium hover:bg-emerald-500 p-2 rounded-lg hover:text-white"
+              >Home</a
+            >
+            <a
+              href="/src/chatgpt.html"
+              class="text-[#06B67A] font-medium hover:bg-emerald-500 p-2 rounded-lg hover:text-white"
+              >Chatgpt</a
+            >
+            <a
+              href="/src/blackbox.html"
+              class="text-[#A1A1A1] font-medium hover:bg-emerald-500 p-2 rounded-lg hover:text-white"
+              >BlackBox</a
+            >
+            <a
+              href="/src/leonardo-ai.html"
+              class="text-[#A1A1A1] font-medium hover:bg-emerald-500 p-2 rounded-lg hover:text-white"
+              >LeonardoAi</a
+            >
+            <a
+            href="/src/iavoz.html"
+              class="text-[#A1A1A1] font-medium hover:bg-emerald-500 p-2 rounded-lg hover:text-white"
+              >VidnozAI</a
+            >
+          </nav>
+          <button
+            class="p-2 rounded-lg xl:hidden open-menu bg-black hover:bg-slate-900 z-10 mb-6"
+          >
+            <img
+              src="../assets/image/menu-icon.svg"
+              class="text-white"
+              width="18"
+              height="18"
+              alt=""
+            />
+          </button>
+        </header>
+        <hero-sls
+          heading="Conheça Mais Sobre o"
+          special="Chatgpt"
+          description="O ChatGPT é uma ferramenta acessível onde, através de uma avançada inteligência artificial, você pode pesquisar, criar e produzir diversos conteudos com apenas uma conversa!"
+          image="/assets/image/RoboIA.png"
+        >
+        </hero-sls>
+
+       
+
+      
+
+        <card-direction
+          image="/assets/image/gptwide.png"
+          heading="O que é"
+          hightlight="Sobre"
+          description="O ChatGPT é uma ferramenta, baseada em deep learning (aprendizagem profunda), de processamento de linguagem natural orientada pela Inteligência Artificial, possibilitando conversas semelhantes as humanas com o chatbot. Algumas das principais funcionalidades do ChatGPT são: tradução; criação de conteúdo; assistente virtual; resumo de textos; recomendações e muito mais. Possibilitando o uso em diversas áreas, tanto para trabalho, estudo e até lazer."
+        >
+        </card-direction>
+
+        <card-direction
+        direction="right"
+          image="/assets/image/openaiteste2.jpeg"
+          heading="Como surgiu"
+          hightlight="Sobre"
+          description="O ChatGPT foi desenvolvido pela empresa norte-americana, OpenAI Inc, fundada em 2015. A empresa consiste em uma organização sem fins lucrativos (OpenAI Incorporated) e uma subsidiária com fins lucrativos (OpenAI Limited Partnership). A OpenIA lançou a plataforma (GPT-3.5) em novembro de 2022 para o público de forma discreta funcionando como um chatbot que produzia uma série de materiais textuais, como apresentações e programações. Em março de 2023 a OpenAI lançou uma atualização, o GPT-4, tendo como principal diferença o modo de lidar com os comandos mais complexos e diferenciados. Além disso, enquanto o GPT-3.5 Aceita somente comandos em texto, o GPT-4 é multimodal e também os aceita em imagem. As plataformas como ChatGPT tem crescido de forma abrangente e tende a evoluir ainda mais, assim como todo o ramo das inteligências artificiais."
+        >
+        </card-direction>
+        <card-direction
+        direction="left"
+          image="/assets/image/gpt_funcionando1.jpg"
+          heading="Como funciona"
+          hightlight="Sobre"
+          description="O funcionamento do ChatGPT é muito simples, por se tratar de um chat conversacional o usuário precisa apenas digitar o que ele quiser e após isso a inteligência artificial trará uma resposta apropriada, mas por trás desse processo a plataforma utiliza um conjunto de tecnologias sofisticadas. Dentre as tecnologias que compõem a IA a principal é, como o nome sugere, a arquitetura GPT (Generative Pre-trained Transformer), que é uma variação do modelo de linguagem Transformer, que trabalham no processamento de linguagem natural (NLP), ou seja, a analise do texto de forma que seja capaz de captar conexões entre as palavras de maneira mais natural, além desse fator a IA passa por um processo de pré-treinamento e ajuste, recebendo grandes quantidades de dados textuais e após é ajustado em dados específicos, assim sendo capaz de abranger diversos assuntos e responder de forma eficiente, coerente e natural."
+        >
+        </card-direction>
+      </div>
+
+      <test-hero
+        headingtext="Faça o seu próprio teste agora!"
+        image="/assets/image/logo_gpt.png"
+        funcallback="https://chatgpt.com/?oai-dm=1"
+      >
+      </test-hero>
+
+      <footer-mod></footer-mod>
+    </main>
+
+    <script src="./scripts/components/components.js" defer></script>
+    <script src="./scripts/menu/toggle-menu.js" defer></script>
+  </body>
+</html>
