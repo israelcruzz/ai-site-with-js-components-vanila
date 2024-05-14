@@ -4,6 +4,12 @@
     height: 32px;
 }
 
-#center-text-unic {
-    text-align: center;
+@media (min-width: 1440px) {
+    #center-text-unic {
+        text-align: center;
+    }
+
+    .text-section {
+        text-align: center;
+    }
 }

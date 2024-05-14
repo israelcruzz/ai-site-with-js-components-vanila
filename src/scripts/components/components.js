@@ -2,10 +2,10 @@ class SectionInfo extends HTMLElement {
   constructor() {
     super();
     this.innerHTML = `
-          <section class="w-full p-6 flex flex-col items-center justify-center mt-10">
-          <h1 id="title" class="text-[#01FEB1] font-bold text-5xl">
+          <section class="w-full p-6 flex flex-col mt-10">
+          <h1 id="title" class="text-[#01FEB1] font-bold text-5xl text-section">
           </h1>
-          <p id="center-text-unic" class="text-white font-normal text-lg mt-4">
+          <p id="center-text-unic" class="text-white font-normal text-lg mt-4 xl:text-center">
           </p>
           
         </section>
@@ -244,7 +244,7 @@ class FooterMod extends HTMLElement {
     </section>
 
     <section
-      class="border-t border-white/20 text-white flex justify-between items-center p-6 xl:px-12 xl:py-6"
+      class="border-t border-white/20 text-white flex justify-between items-center p-6 xl:px-12 xl:py-6 gap-6 xl:gap-6"
     >
 
       <img src="../assets/image/logo.png" class="logo" />
