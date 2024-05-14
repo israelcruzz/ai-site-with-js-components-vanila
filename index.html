@@ -16,35 +16,35 @@
   <nav
     class="fixed hidden top-0 flex flex-col justify-start p-6 bg-black w-1/2 h-[100vh] rounded-r-lg rounded-b-lg xl:hidden menu z-50">
     <div class="w-full flex justify-between">
-      <a href="/src/index.html" class="text-[#06B67A] font-medium p-2 hover:bg-slate-900 rounded-lg flex-1">Home</a>
+      <a href="index.html" class="text-[#06B67A] font-medium p-2 hover:bg-slate-900 rounded-lg flex-1">Home</a>
       <button class="text-red-800 p-2 exit-event">
-        <img src="../assets/image/cancel.svg" width="24" height="24" alt="" />
+        <img src="/assets/image/cancel.svg" width="24" height="24" alt="" />
       </button>
     </div>
 
-    <a href="/src/chatgpt.html" class="text-[#A1A1A1] font-medium hover:bg-slate-900 p-2 rounded-lg">Chatgpt</a>
-    <a href="/src/blackbox.html" class="text-[#A1A1A1] font-medium hover:bg-slate-900 p-2 rounded-lg">BlackBox</a>
-    <a href="/src/leonardo-ai.html" class="text-[#A1A1A1] font-medium hover:bg-slate-900 p-2 rounded-lg">LeonardoAi</a>
-    <a href="/src/iavoz.html" class="text-[#A1A1A1] font-medium hover:bg-slate-900 p-2 rounded-lg">VidnozAI</a>
+    <a href="chatgpt.html" class="text-[#A1A1A1] font-medium hover:bg-slate-900 p-2 rounded-lg">Chatgpt</a>
+    <a href="blackbox.html" class="text-[#A1A1A1] font-medium hover:bg-slate-900 p-2 rounded-lg">BlackBox</a>
+    <a href="leonardo-ai.html" class="text-[#A1A1A1] font-medium hover:bg-slate-900 p-2 rounded-lg">LeonardoAi</a>
+    <a href="iavoz.html" class="text-[#A1A1A1] font-medium hover:bg-slate-900 p-2 rounded-lg">VidnozAI</a>
   </nav>
 
   <main class="h-full w-full flex flex-col" id="top-page">
     <div class="w-full h-full p-6 xl:p-0 flex flex-col align-center justify-center">
       <header class="relative h-full w-full xl:flex xl:items-center xl:justify-center xl:p-6">
         <nav class="w-full hidden xl:flex items-center justify-center nav">
-          <a href="/src/index.html"
+          <a href="index.html"
             class="text-[#06B67A] font-medium hover:bg-emerald-500 p-2 rounded-lg hover:text-white">Home</a>
-          <a href="/src/chatgpt.html"
+          <a href="chatgpt.html"
             class="text-[#A1A1A1] font-medium hover:bg-emerald-500 p-2 rounded-lg hover:text-white">Chatgpt</a>
-          <a href="/src/blackbox.html"
+          <a href="blackbox.html"
             class="text-[#A1A1A1] font-medium hover:bg-emerald-500 p-2 rounded-lg hover:text-white">BlackBox</a>
-          <a href="/src/leonardo-ai.html"
+          <a href="leonardo-ai.html"
             class="text-[#A1A1A1] font-medium hover:bg-emerald-500 p-2 rounded-lg hover:text-white">LeonardoAi</a>
-          <a href="/src/iavoz.html"
+          <a href="iavoz.html"
             class="text-[#A1A1A1] font-medium hover:bg-emerald-500 p-2 rounded-lg hover:text-white">VidnozAI</a>
         </nav>
         <button class="p-2 rounded-lg xl:hidden open-menu bg-black hover:bg-slate-900 z-10 mb-6">
-          <img src="../assets/image/menu-icon.svg" class="text-white" width="18" height="18" alt="" />
+          <img src="./assets/image/menu-icon.svg" class="text-white" width="18" height="18" alt="" />
         </button>
       </header>
       <hero-sls heading="Conheça Sobre" special="IA Agora"
@@ -68,16 +68,16 @@
       </section-info>
 
       <section class="w-full items-center justify-center grid grid-cols-1 xl:grid-cols-2 gap-6 mt-6 mb-6 xl:px-16">
-        <card-info image="../assets/image/gpt.jpg" content="ChatGPT"
+        <card-info image="./assets/image/gpt.jpg" content="ChatGPT"
           description="O ChatGPT pode responder a perguntas, fornecer informações, ajudar na resolução de problemas, oferecer sugestões, gerar texto e muito mais."></card-info>
 
-        <card-info image="../assets/image/black.png" content="BlackBox"
+        <card-info image="./assets/image/black.png" content="BlackBox"
           description="O Blackbox é uma plataforma inovadora que utiliza a inteligência artificial para ajudar desenvolvedores a programar de forma mais eficaz."></card-info>
 
-        <card-info image="../assets/image/vidnoz.jpg" content="Vidnoz AI"
+        <card-info image="./assets/image/vidnoz.jpg" content="Vidnoz AI"
           description="Vidnoz AI é um gerador de vídeos IA gratuito, junto com um conjunto de ferramentas online divertidas e poderosas. "></card-info>
 
-        <card-info image="../assets/image/leo.jpg" content="Leonardo.Ai"
+        <card-info image="./assets/image/leo.jpg" content="Leonardo.Ai"
           description="Leonardo.Ai é uma plataforma de geração de imagens que utilaza inteligencia artifical para interpretar uma descrição e criar uma imagem com base nisso."></card-info>
 
 
@@ -87,8 +87,8 @@
     <footer-mod></footer-mod>
   </main>
 
-  <script src="./scripts/components/components.js" defer></script>
-  <script src="./scripts/menu/toggle-menu.js" defer></script>
+  <script src="./src/scripts/components/components.js" defer></script>
+  <script src="./src/scripts/menu/toggle-menu.js" defer></script>
 </body>
 
 </html>
